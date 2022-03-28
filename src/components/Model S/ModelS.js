@@ -5,6 +5,7 @@ import ModelSCarHome from "./ModelSCarHome";
 import { MessageOutlined } from "@ant-design/icons";
 import ModelSInterior from "./ModelSInterior";
 import ModelSCarousel from "./ModelSCarousel";
+import ModelSFeatures from "./ModelSFeatures";
 
 const ModelS = () => {
   return (
@@ -12,6 +13,7 @@ const ModelS = () => {
       <ModelSCarHome />
       <ModelSInterior />
       <ModelSCarousel />
+      <ModelSFeatures />
       {/* <DiscussionButton>
         <MessageOutlined />
       </DiscussionButton> */}
