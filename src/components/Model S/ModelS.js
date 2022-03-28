@@ -4,12 +4,14 @@ import ModelSCarHome from "./ModelSCarHome";
 // import MessageIcon from '@mui/icons-material/Message';
 import { MessageOutlined } from "@ant-design/icons";
 import ModelSInterior from "./ModelSInterior";
+import ModelSCarousel from "./ModelSCarousel";
 
 const ModelS = () => {
   return (
     <>
       <ModelSCarHome />
       <ModelSInterior />
+      <ModelSCarousel />
       {/* <DiscussionButton>
         <MessageOutlined />
       </DiscussionButton> */}

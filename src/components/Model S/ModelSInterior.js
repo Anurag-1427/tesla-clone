@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import Fade from "react-reveal/Fade";
 
 const ModelSInterior = () => {
   return (
     <>
       <WrapContainer>
-        <h1>Interior of the Future</h1>
+        <Fade bottom>
+          <h1>Interior of the Future</h1>
+        </Fade>
         <img src="images/new-interior.jpg" alt="tesla-car-interior" />
       </WrapContainer>
     </>
@@ -16,7 +19,7 @@ export default ModelSInterior;
 
 const WrapContainer = styled.div`
   width: 100vw;
-  height: 120vh;
+  height: 130vh;
   background-color: black;
   box-shadow: 1px 0 500px black;
   h1{
@@ -33,4 +36,3 @@ const WrapContainer = styled.div`
       height: 85vh;
     }
 `;
-

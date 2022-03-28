@@ -74,6 +74,7 @@ const Menu = styled.div`
         text-transform: uppercase;
         padding: 0 10px;
         flex-wrap: nowrap;
+        color: black;
     }
 
     @media(max-width: 768px){
@@ -88,6 +89,7 @@ const RightMenu = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         margin-right: 10px;
+        color: black;
     }
 `;
 const CustomMenu = styled(MenuOutlined)`
@@ -116,6 +118,7 @@ const BurgerNav = styled.div`
     }
     a{
         font-weight: 600;
+        color: black;
     }
 `;
 const CustomClose = styled(CloseOutlined)`
