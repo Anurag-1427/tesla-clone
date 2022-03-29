@@ -9,6 +9,7 @@ import ModelSFeatures from "./ModelSFeatures";
 import ModelSFeaturesII from "./ModelSFeaturesII";
 import ModleSFeaturesIII from "./ModleSFeaturesIII";
 import ModelSFeaturesfourth from "./ModelSFeaturesfourth";
+import ModelSFeaturesfifth from "./ModelSFeaturesfifth";
 
 const ModelS = () => {
   return (
@@ -21,6 +22,7 @@ const ModelS = () => {
       {/*Here the rollout component comes but i will make it when this page completes*/}
       <ModleSFeaturesIII />
       <ModelSFeaturesfourth />
+      <ModelSFeaturesfifth />
       {/* <DiscussionButton>
         <MessageOutlined />
       </DiscussionButton> */}

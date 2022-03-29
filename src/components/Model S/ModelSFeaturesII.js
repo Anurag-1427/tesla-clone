@@ -90,11 +90,11 @@ const ImgPart = styled.div`
 `;
 const Wrapper = styled.div`
   display: flex;
-  @media (max-width: 540px)
-  {
-    position: relative;
-    top: 92px;
-  }
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  // border: 1px solid black;
+  position: relative;
 `;
 const One = styled.div`
   h2,
@@ -103,6 +103,11 @@ const One = styled.div`
   }
   padding: 55px;
   justify-content: space-between;
+  @media (max-width: 768px)
+  {
+    padding: 25px;
+
+  }
 `;
 const RestPart = styled.div`
   width: 100vw;
