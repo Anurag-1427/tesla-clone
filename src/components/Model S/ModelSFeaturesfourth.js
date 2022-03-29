@@ -1,70 +1,45 @@
-import React from "react";
+import React from 'react'
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
-const ModelSFeatures = () => {
+const ModelSFeaturesfourth = () => {
   return (
     <>
-      <ThirdWrap>
+        <WrapContainer>
         <Under>
-          <One>
-            <OneImg>
-              <Fade bottom>
-                <img src="images/MS-Interior-Grid-A-Desktop.jpg" alt="" />
-              </Fade>
-            </OneImg>
-            <OneText>
-              <CenterText>
-                <Fade bottom>
-                  <h4>Game from Anywhere</h4>
-                </Fade>
-                <Fade bottom>
-                  <p>
-                    Up to 10 teraflops of processing power enables in-car gaming
-                    on-par with today’s newest consoles. Wireless controller
-                    compatibility lets you game from any seat.
-                  </p>
-                </Fade>
-              </CenterText>
-            </OneText>
-          </One>
           <Two>
             <TwoText>
               <CenterText>
                 <Fade bottom>
-                  <h4>Stay Connected</h4>
+                  <h4>Relentless Performance</h4>
                 </Fade>
                 <Fade bottom>
                   <p>
-                    Multi-device Bluetooth, wireless and USB-C charging for
-                    every passenger, with enough power to fast-charge your
-                    tablets and laptop.
+                  Staggered, performance wheels and tires keep the car planted and help transfer maximum power down to the road.
                   </p>
                 </Fade>
               </CenterText>
             </TwoText>
             <TwoImg>
               <Fade bottom>
-                <img src="images/connected.jpg" alt="" />
+                <img src="images/MS-Exterior-Grid-B-Desktop.jfif" alt="" />
               </Fade>
             </TwoImg>
           </Two>
           <One>
             <OneImg>
               <Fade bottom>
-                <img src="images/audio.jpg" alt="" />
+                <img src="images/MS-Exterior-Grid-A-Desktop.jfif" alt="" />
               </Fade>
             </OneImg>
             <OneText>
               <CenterText>
                 <Fade bottom>
-                  <h4>Your Best Audio System</h4>
+                  <h4>Optimized Aerodynamics</h4>
                 </Fade>
                 <Fade bottom>
                   <p>
-                    A 22-speaker, 960-watt audio system with active noise
-                    canceling offers the best listening experience at home or on
-                    the road.
+                  Attention to detail on all exterior surfaces makes Model S the most aerodynamic production car on Earth.
                   </p>
                 </Fade>
               </CenterText>
@@ -74,32 +49,31 @@ const ModelSFeatures = () => {
             <TwoText>
               <CenterText>
                 <Fade bottom>
-                  <h4>Real Storage</h4>
+                  <h4>Refined Styling</h4>
                 </Fade>
                 <Fade bottom>
                   <p>
-                    With front and rear trunks and fold-flat seats, Model S is a
-                    luxury car where you can fit your bike without taking the
-                    wheel off, and your luggage too.
+                  An iconic silhouette meets refreshed, elegant proportions.
                   </p>
                 </Fade>
               </CenterText>
             </TwoText>
             <TwoImg>
               <Fade bottom>
-                <img src="images/interior-image-207.webp" alt="" />
+                <img src="images/MS-Exterior-Grid-C-Desktop.jfif" alt="" />
               </Fade>
             </TwoImg>
           </Two>
         </Under>
-      </ThirdWrap>
+      </WrapContainer>
     </>
-  );
-};
+  )
+}
 
-export default ModelSFeatures;
+export default ModelSFeaturesfourth
 
-const ThirdWrap = styled.div`
+
+const WrapContainer = styled.div`
   width: 100vw;
   background-color: black;
   /* border: 2px solid white; */
