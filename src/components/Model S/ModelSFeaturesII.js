@@ -30,6 +30,7 @@ const ModelSFeaturesII = () => {
         </ImgPart>
         <RestPart>
           <LeftPart>
+          <Fade bottom>
             <Inner>
               <p>Plaid</p>
               <h2>Beyond Ludicrous</h2>
@@ -38,10 +39,13 @@ const ModelSFeaturesII = () => {
                 production. Updated battery architecture for all Model S trims
                 enables back-to-back track runs without performance degradation.
               </span>
+              
               <Button>ORDER NOW</Button>
             </Inner>
+              </Fade>
           </LeftPart>
           <RightPart>
+          <Fade bottom>
             <Under>
               <p>
                 Model S Plaid has the quickest acceleration of any vehicle in
@@ -49,6 +53,7 @@ const ModelSFeaturesII = () => {
                 enables back-to-back track runs without performance degradation.
               </p>
             </Under>
+            </Fade>
           </RightPart>
         </RestPart>
       </WrapContainer>
