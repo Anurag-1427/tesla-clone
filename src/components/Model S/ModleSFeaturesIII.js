@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
-const ModleSFeaturesIII = () => {
+const   ModleSFeaturesIII = () => {
   return (
     <>
         <WrapContainer>
@@ -39,7 +39,6 @@ const ModleSFeaturesIII = () => {
                 production. Updated battery architecture for all Model S trims
                 enables back-to-back track runs without performance degradation.
               </span>
-              
               <Button>ORDER NOW</Button>
             </Inner>
               </Fade>
@@ -90,6 +89,10 @@ const ImgPart = styled.div`
 `;
 const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  // border: 1px solid white;
   @media (max-width: 540px)
   {
     position: relative;
@@ -97,11 +100,12 @@ const Wrapper = styled.div`
   }
 `;
 const One = styled.div`
+  // border: 1px solid white;
   h2,
   p {
     color: white;
   }
-  padding: 55px;
+  padding: 25px;
   justify-content: space-between;
 `;
 const RestPart = styled.div`
@@ -149,6 +153,7 @@ const Inner = styled.div`
     width: 90vw;
     span{
       display: inline;
+      color: white;
       margin-top: 8px;
       margin-bottom: 8px;
     }
@@ -175,8 +180,6 @@ const Button = styled.div`
   {
     width: 28%;
     text-align: center;
-    // position: relative;
-    // left: 5%;
     margin-top: 15px;
     font-size: 14px;
     font-weight: 500;
@@ -184,10 +187,6 @@ const Button = styled.div`
   @media (max-width: 530px){
     width: 100%;
   }
-  // @media (min-width: 480px)
-  // {
-  //   width: 90%;
-  // }
   &:hover{
     background: #fff;
     color: #000;
