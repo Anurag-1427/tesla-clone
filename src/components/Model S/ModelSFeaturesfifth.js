@@ -12,30 +12,56 @@ const ModelSFeaturesfifth = () => {
             <video src={video} autoPlay loop muted></video>
           </Video>
           <Inner>
-            <One>
-              <h3>405mi</h3>
-              <p>
-                Go anywhere with up to 405 miles of estimated range on a single
-                charge
-              </p>
-            </One>
-            <One>
-              <h3>15min</h3>
-              <p>
-                Recharge up to 200 miles in 15 minutes at Supercharger locations{" "}
-              </p>
-            </One>
-            <One>
-              <h3>30,000+</h3>
-              <p>Superchargers placed along popular routes</p>
-            </One>
+            <Fade bottom>
+              <One>
+                <h3>405mi</h3>
+                <p>
+                  Go anywhere with up to 405 miles of estimated range on a
+                  single charge
+                </p>
+              </One>
+            </Fade>
+            <Fade bottom>
+              <One>
+                <h3>15min</h3>
+                <p>
+                  Recharge up to 200 miles in 15 minutes at Supercharger
+                  locations{" "}
+                </p>
+              </One>
+            </Fade>
+            <Fade bottom>
+              <One>
+                <h3>30,000+</h3>
+                <p>Superchargers placed along popular routes</p>
+              </One>
+            </Fade>
           </Inner>
         </Left>
         <Right>
           <Upper>
             <Div>
-              <p>Range</p>
-              <h2>Go Anywhere</h2>
+              <Fade bottom>
+                <p>Range</p>
+              </Fade>
+              <Fade bottom>
+                <h2>Go Anywhere</h2>
+              </Fade>
+              <Fade bottom>
+                <span>
+                  Travel farther on a single charge than any other electric
+                  vehicle—and keep going with access to 30,000+ Superchargers
+                  globally. By combining up to 405 miles of estimated range with
+                  Tesla fast charging technology, you’ll spend less time
+                  charging and even more time on the road.
+                </span>
+              </Fade>
+              <Button2>ORDER NOW</Button2>
+            </Div>
+          </Upper>
+          <Lower>
+            <Div2>
+            <Fade bottom>
               <span>
                 Travel farther on a single charge than any other electric
                 vehicle—and keep going with access to 30,000+ Superchargers
@@ -43,19 +69,10 @@ const ModelSFeaturesfifth = () => {
                 Tesla fast charging technology, you’ll spend less time charging
                 and even more time on the road.
               </span>
-              <Button2>ORDER NOW</Button2>
-            </Div>
-          </Upper>
-          <Lower>
-            <Div2>
-            <span>
-              Travel farther on a single charge than any other electric
-              vehicle—and keep going with access to 30,000+ Superchargers
-              globally. By combining up to 405 miles of estimated range with
-              Tesla fast charging technology, you’ll spend less time charging
-              and even more time on the road.
-            </span>
-            <Button id="1">ORDER NOW</Button>
+              </Fade>
+              <Fade bottom>
+              <Button id="1">ORDER NOW</Button>
+              </Fade>
             </Div2>
           </Lower>
         </Right>
@@ -212,21 +229,19 @@ const Div = styled.div`
       font-size: 18px;
       color: grey;
     }
-    @media (max-width: 900px)
-    {
+    @media (max-width: 900px) {
       width: 90%;
       height: 70%;
       p {
         color: grey;
       }
     }
-    @media (max-width: 500px)
-    {
+    @media (max-width: 500px) {
       p {
         font-size: 15px;
         color: grey;
       }
-      h2{
+      h2 {
         font-size: 18px;
       }
     }
@@ -255,8 +270,8 @@ const Lower = styled.div`
     }
 `;
 const Div2 = styled.div`
-    // border: 1px solid black;
-    width: 80%;
+  // border: 1px solid black;
+  width: 80%;
 `;
 const Button = styled.div`
   width: 60%;
@@ -285,13 +300,11 @@ const Button2 = styled.div`
     width: 100%;
   }
   @media (max-width: 900px) {
-  display: block;
-  width: 30%;
+    display: block;
+    width: 30%;
   }
   @media (max-width: 600px) {
-  display: block;
-  width: 100%;
-
+    display: block;
+    width: 100%;
   }
 `;
-

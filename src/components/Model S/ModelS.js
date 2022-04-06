@@ -9,6 +9,7 @@ import ModelSFeaturesII from "./ModelSFeaturesII";
 import ModleSFeaturesIII from "./ModleSFeaturesIII";
 import ModelSFeaturesfourth from "./ModelSFeaturesfourth";
 import ModelSFeaturesfifth from "./ModelSFeaturesfifth";
+import ModelSFeaturessixth from "./ModelSFeaturessixth";
 
 const ModelS = () => {
   return (
@@ -22,6 +23,7 @@ const ModelS = () => {
       <ModleSFeaturesIII />
       <ModelSFeaturesfourth />
       <ModelSFeaturesfifth />
+      <ModelSFeaturessixth />
       {/* <DiscussionButton>
         <MessageOutlined />
       </DiscussionButton> */}
