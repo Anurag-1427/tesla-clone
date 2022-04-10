@@ -145,7 +145,7 @@ const Inner = styled.div`
   }
 `;
 const One = styled.div`
-  width: 300px;
+  width: 200px;
   // border: 1px solid black;
   display: flex;
   justify-content: center;

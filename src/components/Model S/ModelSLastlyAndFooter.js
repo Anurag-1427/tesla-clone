@@ -59,13 +59,13 @@ const Wrapper = styled.div`
 const Left = styled.div`
   width: 50vw;
   height: 95vh;
-  //   border: 1px solid black;
+    // border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   @media (max-width: 1200px) {
     width: 100vw;
-    height: 47.5vh;
+    height: 25vh;
   }
 `;
 const Inner = styled.div`
@@ -108,13 +108,13 @@ const Button = styled.div`
 const Right = styled.div`
   width: 50vw;
   height: 95vh;
-  //   border: 1px solid black;
+    // border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   @media (max-width: 1200px) {
     width: 100vw;
-    height: 47.5vh;
+    height: 55vh;
   }
 `;
 const Image = styled.div`
@@ -128,9 +128,13 @@ const Image = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 2000px) {
+    width: 100vw;
+    height: 40vh;
+  }
   @media (max-width: 1200px) {
     width: 100vw;
-    height: 40.5vh;
+    height: 40vh;
   }
 `;
 const Footer = styled.div`
@@ -141,7 +145,7 @@ const Footer = styled.div`
   justify-content: center;
   align-itmes: center;
   @media (max-width: 1200px) {
-    height: 35vh;
+    height: 5vh;
     flex-direction: column;
   }
 `;
