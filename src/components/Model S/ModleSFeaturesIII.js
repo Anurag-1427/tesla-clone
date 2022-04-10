@@ -1,66 +1,49 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
-const   ModleSFeaturesIII = () => {
+const ModleSFeaturesIII = () => {
   return (
     <>
-        <WrapContainer>
-        <ImgPart>
-          <Wrapper>
-            <Fade bottom>
-              <One>
-                <h2>1,020hp</h2>
-                <p>Peak Power</p>
-              </One>
-            </Fade>
-            <Fade bottom>
-              <One>
-                <h2>9.23s</h2>
-                <p>@155 mph 1/4 mile</p>
-              </One>
-            </Fade>
-            <Fade bottom>
-              <One>
-                <h2>1.99s</h2>
-                <p>0-60 mph*</p>
-              </One>
-            </Fade>
-          </Wrapper>
-        </ImgPart>
+      <WrapContainer>
+        <ImgPart />
         <RestPart>
           <LeftPart>
-          <Fade bottom>
-            <Inner>
-              <p>Plaid</p>
-              <h2>Beyond Ludicrous</h2>
-              <span>
-                Model S Plaid has the quickest acceleration of any vehicle in
-                production. Updated battery architecture for all Model S trims
-                enables back-to-back track runs without performance degradation.
-              </span>
-              <Button>ORDER NOW</Button>
-            </Inner>
-              </Fade>
+            <Fade bottom>
+              <Inner>
+                <p>Exterior</p>
+                <h2>Designed for Efficiency</h2>
+                <span>
+                  With a drag coefficient of just .208 Cd, the lowest on the
+                  planet, Model S is built for speed, endurance and range.
+                  Improved aerodynamics and a wider chassis offer more
+                  responsive performance so you can take corners quicker and
+                  with more confidence.
+                </span>
+                <Button>ORDER NOW</Button>
+              </Inner>
+            </Fade>
           </LeftPart>
           <RightPart>
-          <Fade bottom>
-            <Under>
-              <p>
-                Model S Plaid has the quickest acceleration of any vehicle in
-                production. Updated battery architecture for all Model S trims
-                enables back-to-back track runs without performance degradation.
-              </p>
-            </Under>
+            <Fade bottom>
+              <Under>
+                <p>
+                  With a drag coefficient of just .208 Cd, the lowest on the
+                  planet, Model S is built for speed, endurance and range.
+                  Improved aerodynamics and a wider chassis offer more
+                  responsive performance so you can take corners quicker and
+                  with more confidence.
+                </p>
+              </Under>
             </Fade>
           </RightPart>
         </RestPart>
       </WrapContainer>
     </>
-  )
-}
+  );
+};
 
-export default ModleSFeaturesIII
+export default ModleSFeaturesIII;
 
 const WrapContainer = styled.div`
   width: 100vw;
@@ -82,8 +65,7 @@ const ImgPart = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("images/MS-Exterior-Hero-Desktop.jfif");
-  @media (max-width: 768px)
-  {
+  @media (max-width: 768px) {
     height: 52vh;
   }
 `;
@@ -93,8 +75,7 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   // border: 1px solid white;
-  @media (max-width: 540px)
-  {
+  @media (max-width: 540px) {
     position: relative;
     top: 92px;
   }
@@ -141,17 +122,16 @@ const Inner = styled.div`
     font-size: 20px;
     color: #fff;
   }
-  span{
+  span {
     display: none;
   }
   h2 {
     color: #fff;
     font-weight: 800;
   }
-  @media (max-width: 768px)
-  {
+  @media (max-width: 768px) {
     width: 90vw;
-    span{
+    span {
       display: inline;
       color: white;
       margin-top: 8px;
@@ -160,14 +140,13 @@ const Inner = styled.div`
     p {
       font-size: 18px;
     }
-    h2{
+    h2 {
       margin-top: -15px;
     }
     text-align: start;
     position: relative;
     left: 2%;
     bottom: 5%;
-
   }
 `;
 const Button = styled.div`
@@ -176,18 +155,17 @@ const Button = styled.div`
   color: #fff;
   border-radius: 50px;
   padding: 5px;
-  @media (max-width: 768px)
-  {
+  @media (max-width: 768px) {
     width: 28%;
     text-align: center;
     margin-top: 15px;
     font-size: 14px;
     font-weight: 500;
   }
-  @media (max-width: 530px){
+  @media (max-width: 530px) {
     width: 100%;
   }
-  &:hover{
+  &:hover {
     background: #fff;
     color: #000;
     transition: 0.7s;
@@ -200,8 +178,7 @@ const RightPart = styled.div`
   justify-content: flex-start;
   align-items: center;
   color: #8d8f92;
-  @media (max-width: 768px)
-  {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -212,12 +189,11 @@ const Under = styled.div`
   bottom: 5%;
   left: 5%;
   text-align: start;
-  p{
+  p {
     color: #fff;
   }
-  @media (max-width: 768px)
-  {
-    p{
+  @media (max-width: 768px) {
+    p {
       display: none;
     }
   }
