@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
-import video from "../Model S/assets/Plaid-Range-Web-Desktop-8mb.mp4";
 
 const ModelSFeaturesfifth = () => {
   return (

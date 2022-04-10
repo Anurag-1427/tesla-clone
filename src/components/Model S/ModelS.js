@@ -10,6 +10,8 @@ import ModleSFeaturesIII from "./ModleSFeaturesIII";
 import ModelSFeaturesfourth from "./ModelSFeaturesfourth";
 import ModelSFeaturesfifth from "./ModelSFeaturesfifth";
 import ModelSFeaturessixth from "./ModelSFeaturessixth";
+import ModelSFeaturesSeventh from "./ModelSFeaturesSeventh";
+import ModelSLastlyAndFooter from "./ModelSLastlyAndFooter";
 
 const ModelS = () => {
   return (
@@ -24,6 +26,8 @@ const ModelS = () => {
       <ModelSFeaturesfourth />
       <ModelSFeaturesfifth />
       <ModelSFeaturessixth />
+      <ModelSFeaturesSeventh />
+      <ModelSLastlyAndFooter />
       {/* <DiscussionButton>
         <MessageOutlined />
       </DiscussionButton> */}
