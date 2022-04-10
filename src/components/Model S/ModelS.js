@@ -1,7 +1,5 @@
 import React from "react";
-import styled from "styled-components";
 import ModelSCarHome from "./ModelSCarHome";
-import { MessageOutlined } from "@ant-design/icons";
 import ModelSInterior from "./ModelSInterior";
 import ModelSCarousel from "./ModelSCarousel";
 import ModelSFeatures from "./ModelSFeatures";
@@ -10,7 +8,6 @@ import ModleSFeaturesIII from "./ModleSFeaturesIII";
 import ModelSFeaturesfourth from "./ModelSFeaturesfourth";
 import ModelSFeaturesfifth from "./ModelSFeaturesfifth";
 import ModelSFeaturessixth from "./ModelSFeaturessixth";
-import ModelSFeaturesSeventh from "./ModelSFeaturesSeventh";
 import ModelSLastlyAndFooter from "./ModelSLastlyAndFooter";
 
 const ModelS = () => {
@@ -21,32 +18,13 @@ const ModelS = () => {
       <ModelSCarousel />
       <ModelSFeatures />
       <ModelSFeaturesII />
-      {/*Here the rollout component comes but i will make it when this page completes*/}
       <ModleSFeaturesIII />
       <ModelSFeaturesfourth />
       <ModelSFeaturesfifth />
       <ModelSFeaturessixth />
-      <ModelSFeaturesSeventh />
       <ModelSLastlyAndFooter />
-      {/* <DiscussionButton>
-        <MessageOutlined />
-      </DiscussionButton> */}
     </>
   );
 };
 
 export default ModelS;
-
-// const DiscussionButton = styled.div`
-// border: 2px solid black;
-// color: black;
-// border-radius: 50px;
-// font-size: 2.2rem;
-// // display: inline;
-// float: right;
-// padding: 10px;
-// // margin-bottom: 15px;
-// position: fixed;
-// z-index: 10;
-
-// `;
