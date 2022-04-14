@@ -69,26 +69,6 @@ const ImgPart = styled.div`
     height: 52vh;
   }
 `;
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  // border: 1px solid white;
-  @media (max-width: 540px) {
-    position: relative;
-    top: 92px;
-  }
-`;
-const One = styled.div`
-  // border: 1px solid white;
-  h2,
-  p {
-    color: white;
-  }
-  padding: 25px;
-  justify-content: space-between;
-`;
 const RestPart = styled.div`
   width: 100vw;
   height: 29vh;

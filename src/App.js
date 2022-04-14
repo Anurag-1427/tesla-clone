@@ -5,13 +5,15 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import ModelS from './components/Model S/ModelS';
+import ModelX from './components/Model X/ModelX';
 
 function App() {
   return (
     <div className="App">
       <Header />
       {/* <Home /> */}
-      <ModelS />
+      {/* <ModelS /> */}
+      <ModelX />
     </div>
   );
 }
